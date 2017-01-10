@@ -1,0 +1,15 @@
+.card {
+	height: 200px;
+	width: 150px;
+	border: 1px black;
+}
+
+.board {
+	height: 50%;
+	width: 80%;
+	display: inline-block;
+}
+
+p { 
+	color: blue;
+	 }
