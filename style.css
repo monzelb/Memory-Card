@@ -18,11 +18,41 @@ h1 {
 	color: rgb(2, 132, 130)
 }
 
+nav {
+	background-color: #808080;
+}
+a {
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	margin: 0px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	}
+	a:hover {
+		background-color: red;
+	}
 
+	.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
 h2 {
 	color: #ffd700;
 }
 
 .name {
 	color: #ff0000;
+}
+
+footer {
+	background-color: #808080;
+}
+header, footer, p {
+	text-align: center;
 }
